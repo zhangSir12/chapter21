@@ -23,7 +23,6 @@ public class SocketTCP01Server {
         is.close();
         socket.close();
         serverSocket.close();
-        System.out.println("服务端读取完毕" +
-                "");
+        System.out.println("服务端读取完毕");
     }
 }
